@@ -1,5 +1,6 @@
 --options
-vim.opt.scrolloff = 5
+vim.opt.scrolloff = 10
+vim.opt.relativenumber = true
 ---@type ChadrcConfig 
  local M = {}
  M.ui = {theme = 'doomchad'}

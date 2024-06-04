@@ -4,13 +4,13 @@ local plugins = {
     config = function ()
       require "plugins.configs.lspconfig"
       require "custom.configs.lspconfig"
-    end
+    end,
   },
   {
     "williamboman/mason.nvim",
     opts = {
       ensure_installed = {
-        "ruby-lsp"
+        "solargraph"
       },
     },
   },
